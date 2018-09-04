@@ -2,14 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>3.1.283.0</Version>
-    <AssemblyVersion>3.1.283.0</AssemblyVersion>
-    <FileVersion>3.1.283.0</FileVersion>
+    <Version>3.1.300.0</Version>
+    <AssemblyVersion>3.1.300.0</AssemblyVersion>
+    <FileVersion>3.1.300.0</FileVersion>
     <Description>Index support for Service Fabric stateful services and reliable collections.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>Azure, ServiceFabric, Microsoft, Fabric, Data Explorer, Query, Index, Indexing</PackageTags>
     <PackageProjectUrl>https://github.com/jessebenson/service-fabric-indexing</PackageProjectUrl>
     <Platforms>x64</Platforms>
+    <!-- Enable delay signing with Key.snk -->
+    <SignAssembly>true</SignAssembly>
+    <DelaySign>true</DelaySign>
+    <AssemblyOriginatorKeyFile>e:\service-fabric-backup-explorer\properties\Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
